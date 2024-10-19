@@ -83,7 +83,7 @@ imports= [
                               # APPS # 
  ##############################################################################
  programs.zsh.enable = true;
- programs.hyprland.enable = true; 
+ programs.hyprland.enable = true;
  programs.zsh.oh-my-zsh.enable = true;
  ##############################################################################
 
