@@ -7,6 +7,17 @@
 
 {
 
+
+
+  options.programs.hyprland.enable = {
+
+type = types.bool;
+description = "Enable hyperland window manager";
+default = false;
+    };
+    config.programs.hyprland.enable= config.programs.hyprland.enable;
+
+
 home.packages = with pkgs ;[
 hyprshot
 hyprland-per-window-layout
