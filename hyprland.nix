@@ -3,10 +3,9 @@
 
 # hyprland.nix 
 
-{config, lib, pkgs, ...}:
+{config,home-manager, lib, pkgs, ...}:
 
 {
-
 
 home.packages = with pkgs ;[
 hyprshot
