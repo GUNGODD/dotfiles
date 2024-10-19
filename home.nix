@@ -5,6 +5,7 @@
 
 imports= [
 ./sh.nix
+./hyprland.nix
 ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
@@ -78,17 +79,13 @@ imports= [
   
   # in order to run programs enables them here 
   # we can modify and change the programs features something like  
-
-   programs.zsh.enable = true;
-  
-   programs.zsh.oh-my-zsh.enable = true;
-  # programs.zsh.oh-my-zsh.plugins = [
-  #   "git"
-  #   "z"  # Add zsh-z plugin
-  #   # Add other plugins here
-  # ];
-  
-
+ ##############################################################################
+                              # APPS # 
+ ##############################################################################
+ programs.zsh.enable = true;
+ programs.hyprland.enable = true; 
+ programs.zsh.oh-my-zsh.enable = true;
+ ##############################################################################
 
   # Let Home Manager install and manage itself.
 
