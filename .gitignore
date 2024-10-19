@@ -1,0 +1,19 @@
+# Nix store paths
+/nix/store
+
+# Build artifacts
+*.drv
+*.out
+*.tar.gz
+
+# Secrets
+*.secrets
+*.key
+*.pem
+
+# User-specific configurations
+home-manager/
+
+# Temporary files
+*.tmp
+*.log
