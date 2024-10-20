@@ -96,7 +96,7 @@
     description = "ascenzen";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-    #  thunderbird
+
     ];
   };
 
@@ -132,7 +132,7 @@ nodejs
 unzip
 postman
 yarn 
- 
+vesktop 
 bun 
 gcc 
 fzf 
