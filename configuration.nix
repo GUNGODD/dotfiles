@@ -102,7 +102,7 @@
 
   # Install firefox.
   programs.firefox.enable = true;
-  programs.hyprland.enable = true;
+
 
 
 # dotfiles change [TODO:]
@@ -139,7 +139,7 @@ fzf
 rustc 
 cargo 
 brave
-hyprland
+
 waybar
 git
 kitty
