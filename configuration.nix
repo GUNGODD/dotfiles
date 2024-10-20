@@ -160,6 +160,7 @@ spotify
 
 rustup
 telegram-desktop
+starship
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
