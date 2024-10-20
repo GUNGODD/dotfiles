@@ -1,5 +1,5 @@
 {
-  description = "Ascenzen's Flake";
+  description = "Ascenzen's Flake";  # --> stable 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-23.05"; 
     home-manager.url = "github:nix-community/home-manager/release-23.05";
@@ -8,7 +8,7 @@
   };
 
   # You can change it with the version you are using such as stable, unstable, or specify the version.
-  outputs = { self, nixpkgs, home-manager, ... }:
+  outputs = { self, nixpkgs, home-manager, hyprland, ... }:
   let 
     lib = nixpkgs.lib;
     system = "x86_64-linux";
@@ -29,6 +29,7 @@
 
         
         modules = [./home.nix];
+        
       };
     };
   };

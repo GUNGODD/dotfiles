@@ -5,12 +5,13 @@
 
 imports= [
 ./sh.nix
-./hyprland.nix
+ # ./hyprland.nix
 ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "ascenzen";
   home.homeDirectory = "/home/ascenzen";
+  
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
