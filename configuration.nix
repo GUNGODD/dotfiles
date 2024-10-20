@@ -132,7 +132,7 @@ nodejs
 unzip
 postman
 yarn 
-vesktop 
+
 bun 
 gcc 
 fzf 
@@ -157,7 +157,7 @@ solana-validator
 blender
 dap
 spotify
-vesktop
+
 rustup
 telegram-desktop
   ];

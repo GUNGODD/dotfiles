@@ -8,7 +8,7 @@
   };
 
   # You can change it with the version you are using such as stable, unstable, or specify the version.
-  outputs = { self, nixpkgs, home-manager, hyprland, ... }:
+  outputs = { self, nixpkgs, home-manager, ... }:
   let 
     lib = nixpkgs.lib;
     system = "x86_64-linux";
