@@ -76,6 +76,16 @@ imports= [
     # EDITOR = "emacs";
   };
 
+  programs.git= {
+  enable = true;
+  userName= "GUNGODD";
+  userEmail = "chauhanadityac01@gmail.com";
+  extraConfig = {
+    init.defaultBranch = "main";
+  };
+
+  };
+
   
   # in order to run programs enables them here 
   # we can modify and change the programs features something like  
@@ -83,7 +93,7 @@ imports= [
                               # APPS # 
  ##############################################################################
  programs.zsh.enable = true;
- programs.hyprland.enable = true;
+ # programs.hyprland.enable = true;
  programs.zsh.oh-my-zsh.enable = true;
  ##############################################################################
 
