@@ -5,7 +5,7 @@ myAliases= {
   ll = "ls -l";
  ".." = "cd ..";
   };
-
+# aditya 
 in
 {
 programs.zsh= {
